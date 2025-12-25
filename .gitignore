@@ -1,0 +1,16 @@
+# Compiler files
+cache/
+out/
+
+# Development broadcast logs
+broadcast/
+
+# Environment and secrets
+.env
+.keys
+
+# Gas report
+.gas-snapshot
+
+# Optional: if you regenerate deployments every time
+# deployments/
