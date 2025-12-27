@@ -13,6 +13,7 @@ fs_permissions = [
 [rpc_endpoints]
 local = "${LOCAL_RPC_URL}"
 sepolia = "${SEPOLIA_RPC_URL}"
+polygon = "${POLYGON_RPC_URL}"
 
 [etherscan]
 sepolia = {key = "${ETHERSCAN_API_KEY}"}
