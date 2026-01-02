@@ -16,7 +16,10 @@ contract Ruochen is ERC721URIStorage, Ownable {
     /// @param to recipient of the minted NFT
     /// @param tokenURI metadata URI for the token
     /// @return tokenId the newly minted token ID
-    function mint(address to, string memory tokenURI) external onlyOwner returns (uint256) {
+    function mint(
+        address to,
+        string memory tokenURI
+    ) external onlyOwner returns (uint256) {
         require(to != address(0), "Ruochen: invalid recipient");
         require(bytes(tokenURI).length > 0, "Ruochen: tokenURI required");
 
