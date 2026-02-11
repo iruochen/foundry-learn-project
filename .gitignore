@@ -14,3 +14,6 @@ broadcast/
 
 # Optional: if you regenerate deployments every time
 # deployments/
+
+node_modules/
+dist
